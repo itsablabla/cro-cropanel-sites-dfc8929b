@@ -1,0 +1,142 @@
+{
+  "target_url": "https://voicenotes.com/\\",
+  "generated": "2026-08-12",
+  "thesis": "The pricing page is the single most valuable conversion mechanism on this site, but it is bleeding value by presenting bare price points without plan names, feature comparisons, or billing frequency, forcing visitors to guess the value and actual cost.",
+  "scorecard": {
+    "grade": "B",
+    "score": 88,
+    "surfaces": [
+      {
+        "high": 2,
+        "grade": "B",
+        "score": 80,
+        "issues": 2,
+        "urgent": 0,
+        "surface": "Trust & Proof"
+      },
+      {
+        "high": 1,
+        "grade": "B",
+        "score": 88,
+        "issues": 1,
+        "urgent": 0,
+        "surface": "Pricing & Plans"
+      },
+      {
+        "high": 1,
+        "grade": "A",
+        "score": 95,
+        "issues": 1,
+        "urgent": 0,
+        "surface": "Site-Wide Seo"
+      }
+    ]
+  },
+  "opportunity": {
+    "has_money": false,
+    "annual_low": 0,
+    "per_1k_low": 0.7,
+    "annual_high": 0,
+    "per_1k_high": 3.4
+  },
+  "inputs": {
+    "aov": 0,
+    "supplied": false,
+    "baseline_cr": 0,
+    "monthly_visitors": 0
+  },
+  "findings": [
+    {
+      "rank": 1,
+      "title": "Weak page metadata",
+      "severity": "MEDIUM",
+      "surface": "Site-Wide Seo",
+      "effort": "Medium",
+      "effort_days": "2-5 days",
+      "pxl_score": 5,
+      "pxl_max": 10,
+      "verified": "yes",
+      "impact": "traffic",
+      "summary": "Search and social previews are degraded due to missing or suboptimal title, description, and Open Graph tags.",
+      "problem": "Search and social previews are degraded: page title (absent), meta description, Open Graph tags are missing or outside recommended lengths.",
+      "recommended_change": "notes: Write a 15-60 char title and 70-160 char description per page; add og:title and og:image for link previews.",
+      "evidence": "Measured on the homepage: title 0 chars (15-60 recommended); description 0 chars (70-160 recommended); og:title missing, og:image missing.",
+      "analysts_agreeing": "Technical & Accessibility",
+      "opportunity_low": 0.1,
+      "opportunity_high": 0.4,
+      "opportunity_basis": "per 1,000 visitors at an assumed 2.00% baseline conversion rate and a 0.5-2.0% relative lift",
+      "sample_per_variant": 1941808,
+      "test_days": "",
+      "detail_page": "finding_1_weak_page_metadata.html"
+    },
+    {
+      "rank": 2,
+      "title": "Missing trust signals above the fold",
+      "severity": "HIGH",
+      "surface": "Trust & Proof",
+      "effort": "Medium",
+      "effort_days": "2-5 days",
+      "pxl_score": 5,
+      "pxl_max": 10,
+      "verified": "yes",
+      "impact": "trust",
+      "summary": "The homepage shows no sign of returns policy, guarantee, so a first-time visitor has nothing to offset purchase risk.",
+      "problem": "The homepage shows no sign of returns policy, guarantee, so a first-time visitor has nothing to offset purchase risk.",
+      "recommended_change": "notes: Surface review counts, the returns window and a guarantee near the primary call to action.",
+      "evidence": "Measured on the live homepage: no match for returns policy, guarantee.",
+      "analysts_agreeing": "Technical & Accessibility",
+      "opportunity_low": 0.2,
+      "opportunity_high": 1.0,
+      "opportunity_basis": "per 1,000 visitors at an assumed 2.00% baseline conversion rate and a 1.0-5.0% relative lift",
+      "sample_per_variant": 315206,
+      "test_days": "",
+      "detail_page": "finding_2_missing_trust_signals_above_the_fold.html"
+    },
+    {
+      "rank": 3,
+      "title": "Pricing lacks plan details",
+      "severity": "HIGH",
+      "surface": "Pricing & Plans",
+      "effort": "Medium",
+      "effort_days": "2-5 days",
+      "pxl_score": 4,
+      "pxl_max": 10,
+      "verified": "no",
+      "impact": "conversion",
+      "summary": "The pricing page shows only prices without plan names, features, or billing frequency, leaving visitors uncertain about value and cost.",
+      "problem": "The pricing page presents bare price points without plan names, feature comparisons, or billing frequency, forcing visitors to guess the value and actual cost.",
+      "recommended_change": "h1: not specified; cta: not specified; notes: Add plan names, feature lists, and billing period (monthly/annual) next to each price.",
+      "evidence": "prices: $0 $9 /user $24 /user | h2: Frequently asked questions",
+      "analysts_agreeing": "Pricing & Cost Transparency",
+      "opportunity_low": 0.2,
+      "opportunity_high": 1.0,
+      "opportunity_basis": "per 1,000 visitors at an assumed 2.00% baseline conversion rate and a 1.0-5.0% relative lift",
+      "sample_per_variant": 315206,
+      "test_days": "",
+      "detail_page": "finding_3_pricing_lacks_plan_details.html"
+    },
+    {
+      "rank": 4,
+      "title": "Missing trust signals",
+      "severity": "HIGH",
+      "surface": "Trust & Proof",
+      "effort": "Medium",
+      "effort_days": "2-5 days",
+      "pxl_score": 4,
+      "pxl_max": 10,
+      "verified": "yes",
+      "impact": "trust",
+      "summary": "The homepage lacks returns policy and guarantee, so first-time visitors have nothing to offset purchase risk.",
+      "problem": "The homepage shows no sign of returns policy, guarantee, so a first-time visitor has nothing to offset purchase risk.",
+      "recommended_change": "notes: Surface review counts, the returns window and a guarantee near the primary call to action.",
+      "evidence": "Measured on the live homepage: no match for returns policy, guarantee.",
+      "analysts_agreeing": "Technical & Accessibility",
+      "opportunity_low": 0.2,
+      "opportunity_high": 1.0,
+      "opportunity_basis": "per 1,000 visitors at an assumed 2.00% baseline conversion rate and a 1.0-5.0% relative lift",
+      "sample_per_variant": 315206,
+      "test_days": "",
+      "detail_page": "finding_4_missing_trust_signals.html"
+    }
+  ]
+}
